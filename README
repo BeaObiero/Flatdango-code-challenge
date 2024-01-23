@@ -1,0 +1,45 @@
+FLATGANGO MOVIE TICKETING APP
+Flatdango is a web application that allows users to purchase movie tickets from Flatiron Movie Theater. The app fetches data from a local server running a JSON DB server and provides features such as viewing movie details, a menu of all movies, and buying tickets.
+
+Table of Contents
+-Features
+-Requirements
+-Project Setup
+-Usage
+-Core Deliverables
+-Bonus Deliverables
+-Extra Bonus
+-Contributing
+
+FEATURES
+-Display details for a specific movie.
+-Show a menu of all movies.
+-Buy tickets for a movie.
+REQUIREMENTS
+
+Node.js
+JSON DB server
+PROJECT SETUP
+
+Clone the repository.
+Install: npm install
+Start the local JSON DB server: json-server --watch db.json
+Open index.html in a web browser.
+
+USAGE
+-Open the app in a web browser.
+-View movie details by clicking on a movie in the menu.
+-Buy tickets for a movie using the "Buy Ticket" button.
+
+CORE DELIVERABLES
+-See the first movie's details on page load.
+-View a menu of all movies on the left side of the page.
+-Buy a ticket for a movie.
+
+BONUS DELIVERABLES
+-Click on a movie in the menu to replace the currently displayed movie's details.
+-Indicate a sold-out movie by changing the button text to "Sold Out."
+
+EXTRA BONUS
+-Persist the updated number of tickets sold on the server.
+-Delete a film from the server.
